@@ -1,13 +1,11 @@
 ---
 templates:
   Collection:
-    optional:
-      - show
-      - poster
     tvdb_show: <<show>>
     url_poster: <<poster>>
     sync_mode: sync
     sort_title: "!015_<<collection_name>>"
+    collection_order: release.desc
 collections:
   All-Time Top Shows:
     template:
@@ -15,9 +13,7 @@ collections:
       poster: https://raw.githubusercontent.com/WhoDat104/Genres/main/All-Time%20Top%20Shows.jpg
     sort_title: "!015_100"
     smart_filter:
-      sort_by: audience_rating.desc
-      all:
-        genre.not: documentary
+      sort_by: audience_rating.desc        
   Action:
     template:
       name: Collection
@@ -26,7 +22,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: action
-        genre.not: documentary
   Adult Cartoons:
     template:
       name: Collection
@@ -35,7 +30,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: animation
-        genre.not: documentary, family
   Adventure:
     template:
       name: Collection
@@ -44,7 +38,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: adventure
-        genre.not: documentary
   Biography:
     template:
       name: Collection
@@ -61,7 +54,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: animation, family
-        genre.not: documentary
   Comedy:
     template:
       name: Collection
@@ -70,7 +62,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: comedy
-        genre.not: documentary
   Crime:
     template:
       name: Collection
@@ -79,7 +70,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: crime
-        genre.not: documentary
   Documentary:
     template:
       name: Collection
@@ -96,7 +86,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: drama
-        genre.not: documentary
   Family:
     template:
       name: Collection
@@ -123,7 +112,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: comedy, science fiction
-        genre.not: documentary
   History:
     template:
       name: Collection
@@ -132,7 +120,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: history
-        genre.not: documentary
   Horror:
     template:
       name: Collection
@@ -141,7 +128,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: horror
-        genre.not: documentary
   Musical:
     template:
       name: Collection
@@ -150,7 +136,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: musical
-        genre.not: documentary
   Mystery:
     template:
       name: Collection
@@ -159,7 +144,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: mystery
-        genre.not: documentary
   News:
     template:
       name: Collection
@@ -168,7 +152,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: news
-        genre.not: documentary
   Reality:
     template:
       name: Collection
@@ -177,7 +160,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: reality
-        genre.not: documentary
   Romance:
     template:
       name: Collection
@@ -186,7 +168,7 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: romance
-        genre.not: documentary
+
   Science Fiction:
     template:
       name: Collection
@@ -195,7 +177,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: science fiction
-        genre.not: documentary
   Sport:
     template:
       name: Collection
@@ -204,7 +185,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: sport
-        genre.not: documentary
   Thriller:
     template:
       name: Collection
@@ -213,7 +193,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: thriller
-        genre.not: documentary
   War & Politics:
     template:
       name: Collection
@@ -222,7 +201,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: war
-        genre.not: documentary
   Western:
     template:
       name: Collection
@@ -231,16 +209,6 @@ collections:
       sort_by: audience_rating.desc
       all:
         genre: western
-        genre.not: documentary
-  Collection:
-    optional:
-      - poster
-    url_poster: <<poster>>
-    sync_mode: sync
-    radarr_add_missing: false
-    sonarr_add_missing: false
-    sort_title: "!017_<<collection_name>>"
-    collection_order: release.desc
   America:
     template:
       name: Collection
