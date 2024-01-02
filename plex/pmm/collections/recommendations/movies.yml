@@ -3,12 +3,12 @@ external_templates:
   - repo: templates/dynamic_collections
 
 collections:
-  "⭐️ Editor's Choice":
+  "⭐️ Reccomendations":
     template: { name: Chart,
                 level: "++" }
     summary: "Our top picks"
     trakt_list:
-      - https://trakt.tv/users/nwithan8/lists/recommendations-plex-sync?sort=popularity,asc
+      - https://trakt.tv/users/flk203/lists/movies-recommendations-couchmoney-tv?sort=
     collection_order: release.desc
     visible_library: true
     visible_home: true
