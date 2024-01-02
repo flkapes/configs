@@ -60,15 +60,14 @@ collections:
   #  filters:
   #   filepath.regex: (HQ-WEBDL|LQ-WEBDL|WEBDL|WEBRip)
       
-  4K:
+  4k:
     plex_search:
       all:
         resolution: 4K
      sort_title: +01_09_<<collection_name>>
      url_poster: https://theposterdb.com/api/assets/220482/view
      filters:
-       has_dolby_vision: false
-       filepath.regex: (HQ-Remux|LQ-Remux|Remux-2160p|2160p|4K)
+       filepath.regex: (Remux-2160p|2160p|4K)
       
   #FHD-Remux:
   #  plex_search:
