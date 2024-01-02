@@ -169,65 +169,6 @@ collections:
     visible_home: true
     visible_shared: true
 
-  "🧥 I'm Gonna Make Him an Offer":
-    template: { name: Genre,
-                level: "++" }
-    summary: "The best gangster movies of all time"
-    trakt_list:
-      - https://trakt.tv/users/majeed_pk/lists/the-complete-list-of-mafia-gangsters-movies
-    collection_order: random
-    visible_library: true
-    visible_home: false  # Not advertised on the home page
-    visible_shared: false  # Not advertised on the home page
-
-  # TODO: Might time out due to size
-  # "🧑 It Really Happened":
-  #  template: { name: Genre,
-  #              level: "++" }
-  #  summary: "These people actually existed."
-  #  trakt_list:
-  #    - https://trakt.tv/users/majeed_pk/lists/biographies
-  #  collection_order: random
-  #  visible_library: true
-  #  visible_home: true
-  #  visible_shared: true
-
-  "🌿 What Is Life Anyway?":
-    template: { name: Genre,
-                level: "++" }
-    name_mapping: "Existentialist Films Collection"
-    summary: "The best existential movies of all time"
-    trakt_list:
-      - https://trakt.tv/users/majeed_pk/lists/existentialist-films
-    collection_order: random
-    visible_library: true
-    visible_home: true
-    visible_shared: true
-
-  "⚖️ Order In The Court":
-    template: { name: Genre,
-                level: "++" }
-    name_mapping: "Courtroom Drama Collection"
-    summary: "The best courtroom dramas of all time"
-    trakt_list:
-      - https://trakt.tv/users/majeed_pk/lists/courtroom-dramas
-    collection_order: random
-    visible_library: true
-    visible_home: false  # Not advertised on the home page
-    visible_shared: false  # Not advertised on the home page
-
-  "🪖 World War II, In Order":
-    template: { name: Genre,
-                level: "++" }
-    name_mapping: "World War II Collection"
-    summary: "Movies depicting World War II, in chronological order"
-    trakt_list:
-      - https://trakt.tv/users/majeed_pk/lists/world-war-ii-in-chronological-order
-    collection_order: custom  # Maintain the order of the list
-    visible_library: true
-    visible_home: false  # Not advertised on the home page
-    visible_shared: false  # Not advertised on the home page
-
   "🙂 Feel-Good Movies":
     template: { name: Genre,
                 level: "++" }
