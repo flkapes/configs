@@ -13,6 +13,8 @@ collections:
       poster: https://raw.githubusercontent.com/WhoDat104/Genres/main/All-Time%20Top%20Shows.jpg
     sort_title: "!015_100"
     smart_filter:
+      all:
+      unplayed: true
       sort_by: audience_rating.desc        
   Action:
     template:
@@ -172,7 +174,7 @@ collections:
   Science Fiction:
     template:
       name: Collection
-      poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/Science%20Fiction.jpg
+      poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/genre/Science%20Fiction.jpg?raw=true
     smart_filter:
       sort_by: audience_rating.desc
       all:
