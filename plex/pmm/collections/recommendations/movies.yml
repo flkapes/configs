@@ -8,7 +8,7 @@ collections:
                 level: "++" }
     summary: "Our top picks"
     trakt_list:
-      - https://trakt.tv/users/flk203/lists/movies-recommendations-couchmoney-tv?sort=
+      - https://trakt.tv/users/flk203/lists/movies-recommendations-couchmoney-tv?sort=popularity,asc
     collection_order: release.desc
     visible_library: true
     visible_home: true
