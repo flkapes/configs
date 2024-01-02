@@ -69,10 +69,10 @@ collections:
 #           Trakt Collections       #
 #####################################
   Most Watched This Week:
-    trakt_watched_weekly: 100
-    sort_title: "+01_05_Watched This Week"
+    trakt_watched_weekly: 75
+    sort_title: "+01_05_Most Watched This Week"
     sync_mode: sync
-    radarr_add: false
+    radarr_add: true
     url_poster: https://raw.githubusercontent.com/bradmartti/Plex-Meta-Manager-Configs/master/bradmartti/Posters/Charts/Trakt_Weekly.jpg
     collection_order: custom
     collection_mode: hide
