@@ -38,6 +38,15 @@ collections:
     url_poster: https://theposterdb.com/api/assets/224736/view?performed_by=flk203
     filters:
       filepath.regex: (IMAX Enhanced)
+  4k:
+    plex_search:
+      all:
+        resolution: 4K
+    sort_title: +01_09_<<collection_name>>
+    url_poster: https://theposterdb.com/api/assets/220482/view
+    filters:
+      filepath.regex: (Remux-2160p|2160p|4K)
+      
 
   #Remux 1080P:
   # plex_all: true
@@ -60,15 +69,7 @@ collections:
   #  filters:
   #   filepath.regex: (HQ-WEBDL|LQ-WEBDL|WEBDL|WEBRip)
       
-  4k:
-    plex_search:
-      all:
-        resolution: 4K
-     sort_title: +01_09_<<collection_name>>
-     url_poster: https://theposterdb.com/api/assets/220482/view
-     filters:
-       filepath.regex: (Remux-2160p|2160p|4K)
-      
+ 
   #FHD-Remux:
   #  plex_search:
   #    all:
