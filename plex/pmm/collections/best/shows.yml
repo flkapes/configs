@@ -1,3 +1,98 @@
 external_templates:
   - repo: templates/collections
   - repo: templates/dynamic_collections
+
+collections:
+  IMDB Top 250:
+    imdb_chart: top_shows
+    url_poster: https://i.imgur.com/X3NNWy4.png
+    sort_title: +01_06_IMDB top 250 tv shows
+    summary: Top shows of all time
+    collection_order: custom
+    collection_mode: hide
+    schedule:
+     - weekly(sunday)
+     - hourly(02)
+  HDR:
+    plex_search:
+      all:
+        resolution: 4K
+        hdr: true
+    sort_title: +01_09_<<collection_name>>
+    url_poster: https://theposterdb.com/api/assets/224737/view?performed_by=flk203
+    filters:
+      has_dolby_vision: false
+
+  1080p:
+    plex_search:
+      all:
+        resolution: 1080p
+        hdr: false
+    sort_title: +01_09_<<collection_name>>
+    url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/resolution/1080.jpg?raw=true
+    filters:
+      has_dolby_vision: false
+      
+  IMAX-Enhanced:
+    plex_all: true
+    sort_title: +01_09_<<collection_name>>
+    url_poster: https://theposterdb.com/api/assets/224736/view?performed_by=flk203
+    filters:
+      filepath.regex: (IMAX Enhanced)
+
+  Remux:
+    plex_all: true
+    sort_title: +01_09_<<collection_name>>
+    url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/video_format/remux.jpg?raw=true
+    filters:
+      filepath.regex: (HQ-Remux|LQ-Remux|Remux-2160p|Remux-1080p)
+
+  Encodes:
+    plex_all: true
+    sort_title: +01_09_<<collection_name>>
+    url_poster: https://i.imgur.com/vdACVQ2.png
+    filters:
+      filepath.regex: (HQ2|LQ2)
+      
+  WEB-DL:
+    plex_all: true
+    sort_title: +01_09_<<collection_name>>
+    url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/video_format/web.jpg?raw=true
+    filters:
+      filepath.regex: (HQ-WEBDL|LQ-WEBDL|WEBDL|WEBRip)
+      
+  4K-Remux:
+    plex_search:
+      all:
+        resolution: 4K
+    sort_title: +01_09_<<collection_name>>
+    url_poster: https://i.imgur.com/mkffQKH.jpg
+    filters:
+      filepath.regex: (HQ-Remux|LQ-Remux|Remux-2160p)
+      
+  FHD-Remux:
+    plex_search:
+      all:
+        resolution: 1080p
+    sort_title: +01_09_<<collection_name>>
+    url_poster: https://i.imgur.com/U3en86q.png
+    filters:
+      filepath.regex: (HQ-Remux|LQ-Remux|Remux-1080p)
+
+  4K-Encodes:
+    plex_search:
+      all:
+        resolution: 4K
+    sort_title: +01_09_<<collection_name>>
+    url_poster: https://theposterdb.com/api/assets/220482/view
+    filters:
+      filepath.regex: (HQ2|LQ2)
+
+  FHD-Encodes:
+    plex_search:
+      all:
+        resolution: 1080p
+    sort_title: +01_09_<<collection_name>>
+    url_poster: https://theposterdb.com/api/assets/220483/view
+    filters:
+      filepath.regex: (HQ2|LQ2)
