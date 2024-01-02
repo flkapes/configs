@@ -185,7 +185,7 @@ collections:
   "Spring Pre-Rolls":
     template: { name: PreRoll }
     server_preroll: "/content/storage2/prerolls1/Blooming_Flower_Plex_Pre-roll.mp4;/content/storage2/prerolls1/Dancing_Butterflies_Plex_Pre-roll.mp4;/content/storage2/prerolls1/Flower_Field_Plex_Pre-roll.mp4;/content/storage2/prerolls1/Melting_Snow_Plex_Pre-roll.mp4"
-    schedule: range(03/19-03-26)
+    schedule: range(03/19-03/26)
 
   "Summer Pre-Rolls":
     template: { name: PreRoll }
@@ -195,7 +195,7 @@ collections:
   "Fall Pre-Rolls":
     template: { name: PreRoll }
     server_preroll: "/content/storage2/prerolls1/Autumn_Trees_Plex_Bumper.mp4;/content/storage2/prerolls1/Fall_Fox_Plex_Pre-roll.mp4;/content/storage2/prerolls1/Simple_Fall_Plex_Pre-roll.mp4;/content/storage2/prerolls1/Warm_Apple_Night_Plex_Pre-roll.mp4;/content/storage2/prerolls1/Water_Leaves_Plex_Bumper.mp4"
-    schedule: range(09/22-9-28)
+    schedule: range(09/22-9/28)
 
   "Winter Pre-Rolls":
     template: { name: PreRoll }
