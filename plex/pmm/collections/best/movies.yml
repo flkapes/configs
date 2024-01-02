@@ -72,7 +72,7 @@ collections:
     trakt_watched_weekly: 75
     sort_title: "+01_05_Most Watched This Week"
     sync_mode: sync
-    radarr_add: true
+    radarr_add: false
     url_poster: https://raw.githubusercontent.com/bradmartti/Plex-Meta-Manager-Configs/master/bradmartti/Posters/Charts/Trakt_Weekly.jpg
     collection_order: custom
     collection_mode: hide
