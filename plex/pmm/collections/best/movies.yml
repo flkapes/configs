@@ -56,7 +56,7 @@ collections:
 #####################################
   IMDB Top 250:
     imdb_chart: top_movies
-    url_poster: https://raw.githubusercontent.com/bradmartti/Plex-Meta-Manager-Configs/master/bradmartti/Posters/Charts/Top_250.JPG
+    url_poster: https://theposterdb.com/api/assets/327861/view?performed_by=flk203
     sort_title: +01_06_IMDB top 250
     summary: Top movies of all time
     collection_order: custom
@@ -113,7 +113,7 @@ collections:
         resolution: 4K
         hdr: true
     sort_title: +01_09_<<collection_name>>
-    url_poster: https://i.imgur.com/1JGkaL9.jpg
+    url_poster: https://theposterdb.com/api/assets/224737/view?performed_by=flk203
     filters:
       has_dolby_vision: false
 
@@ -123,21 +123,21 @@ collections:
         resolution: 1080p
         hdr: false
     sort_title: +01_09_<<collection_name>>
-    url_poster: https://i.imgur.com/y479gbs.jpg
+    url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/resolution/1080.jpg?raw=true
     filters:
       has_dolby_vision: false
       
   IMAX-Enhanced:
     plex_all: true
     sort_title: +01_09_<<collection_name>>
-    url_poster: https://i.imgur.com/1x2Uvy0.png
+    url_poster: https://theposterdb.com/api/assets/224736/view?performed_by=flk203
     filters:
       filepath.regex: (IMAX Enhanced)
 
   Remux:
     plex_all: true
     sort_title: +01_09_<<collection_name>>
-    url_poster: https://i.imgur.com/G5jNWnH.png
+    url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/video_format/remux.jpg?raw=true
     filters:
       filepath.regex: (HQ-Remux|LQ-Remux|Remux-2160p|Remux-1080p)
 
@@ -151,7 +151,7 @@ collections:
   WEB-DL:
     plex_all: true
     sort_title: +01_09_<<collection_name>>
-    url_poster: https://i.imgur.com/UgQ4NGu.png
+    url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/video_format/web.jpg?raw=true
     filters:
       filepath.regex: (HQ-WEBDL|LQ-WEBDL|WEBDL|WEBRip)
       
@@ -178,7 +178,7 @@ collections:
       all:
         resolution: 4K
     sort_title: +01_09_<<collection_name>>
-    url_poster: https://i.imgur.com/B8DFG8h.png
+    url_poster: https://theposterdb.com/api/assets/220482/view
     filters:
       filepath.regex: (HQ2|LQ2)
 
@@ -187,7 +187,7 @@ collections:
       all:
         resolution: 1080p
     sort_title: +01_09_<<collection_name>>
-    url_poster: https://i.imgur.com/nfx5UR5.png
+    url_poster: https://theposterdb.com/api/assets/220483/view
     filters:
       filepath.regex: (HQ2|LQ2)
      
