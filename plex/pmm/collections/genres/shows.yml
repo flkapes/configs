@@ -5,24 +5,144 @@ external_templates:
 collections:
 
   ### Genres
-  "🔍 A Real-Life Whodunnit":
+
+  # 1. Drama
+  "Drama":
     template: { name: Genre }
-    name_mapping: "True Crime Collection"
-    summary: "True crime documentaries"
-    trakt_list:
-      - https://trakt.tv/users/lish408/lists/true-crime-documentary-series-film
+    name_mapping: "Drama TV Series Collection"
+    summary: "Drama TV series"
+    imdb_list:
+      - https://www.imdb.com/list/ls024859574/
     collection_order: random
     visible_home: false
     visible_shared: true
 
-dynamic_collections:
-  ## Use DC as suffix to avoid name conflicts with static collections
-  ## These get generated in the order they are listed here, so put the more intensive ones at the bottom
+  # 2. Action
+  "Action":
+    template: { name: Genre }
+    name_mapping: "Action TV Series Collection"
+    summary: "Action TV series"
+    imdb_list:
+      - https://www.imdb.com/list/ls054323220/
+    collection_order: random
+    visible_home: false
+    visible_shared: true
 
-  Per-Genre DC Shows: # mapping name does not matter just needs to be unique
+  # 3. Comedy
+  "Comedy":
+    template: { name: Genre }
+    name_mapping: "Comedy TV Series Collection"
+    summary: "Comedy TV series"
+    imdb_list:
+      - https://www.imdb.com/list/ls059567201/
+    collection_order: random
+    visible_home: false
+    visible_shared: true
+
+  # 4. Sci-Fi
+  "Sci-Fi":
+    template: { name: Genre }
+    name_mapping: "Sci-Fi TV Series Collection"
+    summary: "Science Fiction TV series"
+    imdb_list:
+      - https://www.imdb.com/list/ls079532619/
+    collection_order: random
+    visible_home: false
+    visible_shared: true
+
+  # 5. Horror
+  "Horror":
+    template: { name: Genre }
+    name_mapping: "Horror TV Series Collection"
+    summary: "Horror TV series"
+    imdb_list:
+      - https://www.imdb.com/list/ls063407182/
+    collection_order: random
+    visible_home: false
+    visible_shared: true
+
+  # 6. Romance
+  "Romance":
+    template: { name: Genre }
+    name_mapping: "Romance TV Series Collection"
+    summary: "Romance TV series"
+    imdb_list:
+      - https://www.imdb.com/list/ls028845596/
+    collection_order: random
+    visible_home: false
+    visible_shared: true
+
+  # 7. Thriller
+  "Thriller":
+    template: { name: Genre }
+    name_mapping: "Thriller TV Series Collection"
+    summary: "Thriller TV series"
+    imdb_list:
+      - https://www.imdb.com/list/ls068930182/
+    collection_order: random
+    visible_home: false
+    visible_shared: true
+
+  # 8. Mystery
+  "Mystery":
+    template: { name: Genre }
+    name_mapping: "Mystery TV Series Collection"
+    summary: "Mystery TV series"
+    imdb_list:
+      - https://www.imdb.com/list/ls068930182/
+    collection_order: random
+    visible_home: false
+    visible_shared: true
+
+  # 9. Crime
+  "Crime":
+    template: { name: Genre }
+    name_mapping: "Crime TV Series Collection"
+    summary: "Crime TV series"
+    imdb_list:
+      - https://www.imdb.com/list/ls068930182/
+    collection_order: random
+    visible_home: false
+    visible_shared: true
+
+  # 10. Fantasy
+  "Fantasy":
+    template: { name: Genre }
+    name_mapping: "Fantasy TV Series Collection"
+    summary: "Fantasy TV series"
+    imdb_list:
+      - https://www.imdb.com/list/ls079740174/
+    collection_order: random
+    visible_home: false
+    visible_shared: true
+
+  # 11. Adventure
+  "Adventure":
+    template: { name: Genre }
+    name_mapping: "Adventure TV Series Collection"
+    summary: "Adventure TV series"
+    imdb_list:
+      - https://www.imdb.com/list/ls079740174/
+    collection_order: random
+    visible_home: false
+    visible_shared: true
+
+  # 13. Documentary
+  "Documentary":
+    template: { name: Genre }
+    name_mapping: "Documentary TV Series Collection"
+    summary: "Documentary TV series"
+    imdb_list:
+      - https://www.imdb.com/list/ls574333234/
+    collection_order: random
+    visible_home: false
+    visible_shared: true
+
+  Per-Genre DC TV Series:
     type: genre
     exclude:
       - Action/Adventure
+      - Talk Show
       - Awards Show
       - Podcast
     title_format: <<key_name>>
