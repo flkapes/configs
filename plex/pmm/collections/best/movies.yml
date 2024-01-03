@@ -3,7 +3,7 @@ external_templates:
   - repo: templates/dynamic_collections
 templates:
   Series:
-    sort_title: +03_<<collection_name>>
+    sort_title: +05_<<collection_name>>
     sync_mode: sync
     collection_mode: hide
     schedule:
@@ -92,18 +92,18 @@ collections:
      - weekly(sunday)
      - hourly(02)
     
-  Newly Released (Box Office):
-    sync_mode: sync
-    sort_title: +01_05_<<collection_name>>
-    trakt_boxoffice: true
-    summary: A collection of top movies at the Box Office from Trakt.
-    url_poster: https://i.imgur.com/iLTMGzj.jpg
-    smart_label: release.desc
-    collection_mode: hide
-    radarr_add_missing: false
-    schedule:
-     - weekly(sunday)
-     - hourly(02)
+  #Newly Released (Box Office):
+  #  sync_mode: sync
+  #  sort_title: +01_05_<<collection_name>>
+  #  trakt_boxoffice: true
+  #  summary: A collection of top movies at the Box Office from Trakt.
+  #  url_poster: https://i.imgur.com/iLTMGzj.jpg
+  #  smart_label: release.desc
+  #  collection_mode: hide
+  #  radarr_add_missing: false
+  #  schedule:
+  #   - weekly(sunday)
+  #   - hourly(02)
 #########################################################
 #    4K Dolby Vision, 4K HDR & 1080P FHD Collections    #
 #########################################################
