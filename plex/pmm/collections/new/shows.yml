@@ -15,6 +15,7 @@ collections:
         # Episode added in the last 7 days
         episode_added: 7
     sync_mode: sync
+    poster_url: https://i.imgur.com/MzDqnFH.png
     visible_home: true
     visible_shared: true
     visible_library: true
@@ -30,6 +31,7 @@ collections:
         # Shows added in the last 30 days
         added: 30
     sync_mode: sync
+    poster_url: https://i.imgur.com/MzDqnFH.png
     visible_library: true
     visible_home: true
     visible_shared: true
