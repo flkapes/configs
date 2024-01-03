@@ -16,7 +16,7 @@ collections:
         # Movie released in the last 10 years
         release: 3650
         unplayed: true
-      limit: 100
+      limit: 25
     visible_library: true
     visible_home: true
     visible_shared: true
@@ -35,7 +35,7 @@ collections:
         release: 150
         # Movie added in the last 2 months
         added: 60
-      limit: 100
+      limit: 25
     visible_library: true
     visible_home: true
     visible_shared: true
