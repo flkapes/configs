@@ -12,4 +12,5 @@ collections:
     collection_order: release.desc
     visible_library: true
     visible_home: true
+    poster_url: https://i.imgur.com/susZuCj.png
     visible_shared: true
