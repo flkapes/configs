@@ -9,13 +9,14 @@ collections:
     template: { name: New,
                 level: "++" }
     summary: "Let's try something new"
+    poster_url: https://i.imgur.com/CcWfSte.png
     smart_filter:
       type: movies
       all:
         # Movie released in the last 10 years
         release: 3650
         unplayed: true
-      limit: 10
+      limit: 100
     visible_library: true
     visible_home: true
     visible_shared: true
@@ -26,6 +27,7 @@ collections:
     template: { name: New,
                 level: "+" }
     summary: "New releases for you to take a chance on!"
+    poster_url: https://i.imgur.com/6iWNpJJ.png
     smart_filter:
       type: movies
       all:
@@ -33,7 +35,7 @@ collections:
         release: 150
         # Movie added in the last 2 months
         added: 60
-      limit: 30
+      limit: 100
     visible_library: true
     visible_home: true
     visible_shared: true
