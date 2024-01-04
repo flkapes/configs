@@ -21,7 +21,9 @@ collections:
     url_poster: https://theposterdb.com/api/assets/206256
     collection_order: release
     sync_mode: sync
+    sort_title: +01_09_MCU1
     collection_mode: hide
+    radarr_add: true
     summary: All movies from the Marvel Cinematic Universe Phase 1.
 
   Marvel Cinematic Universe Phase 2:
@@ -30,7 +32,9 @@ collections:
     url_poster: https://theposterdb.com/api/assets/206257
     collection_order: release
     sync_mode: sync
+    sort_title: +01_09_MCU2
     collection_mode: hide
+    radarr_add: true
     summary: All movies from the Marvel Cinematic Universe Phase 2.    
 
   Marvel Cinematic Universe Phase 3:
@@ -39,6 +43,8 @@ collections:
     url_poster: https://theposterdb.com/api/assets/206258
     collection_order: release
     sync_mode: sync
+    sort_title: +01_09_MCU3
+    radarr_add: true
     collection_mode: hide
     summary: All movies from the Marvel Cinematic Universe Phase 3.
     
@@ -48,6 +54,8 @@ collections:
     url_poster: https://theposterdb.com/api/assets/206259
     collection_order: release
     sync_mode: sync
+    radarr_add: true
+    sort_title: +01_09_MCU1
     collection_mode: hide
     summary: All movies from the Marvel Cinematic Universe Phase 4.    
 
@@ -60,6 +68,7 @@ collections:
     sort_title: +01_06_IMDB top 250
     summary: Top movies of all time
     collection_order: custom
+    radarr_add: true
     collection_mode: hide
     schedule:
      - weekly(sunday)
@@ -107,27 +116,27 @@ collections:
 #########################################################
 #    4K Dolby Vision, 4K HDR & 1080P FHD Collections    #
 #########################################################
-  1080p:
-    plex_search:
-      all:
-        resolution: 1080p
-    sort_title: +01_09_<<collection_name>>
-    url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/resolution/1080.jpg?raw=true
-    filters:
-      has_dolby_vision: false
+  #1080p:
+  #  plex_search:
+  #    all:
+  #      resolution: 1080p
+  #  sort_title: +01_09_<<collection_name>>
+  #  url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/resolution/1080.jpg?raw=true
+  #  filters:
+  #    has_dolby_vision: false
       
-  IMAX-Enhanced:
-    plex_all: true
-    sort_title: +01_09_<<collection_name>>
-    url_poster: https://theposterdb.com/api/assets/224736/view?performed_by=flk203
-    filters:
-      filepath.regex: (IMAX Enhanced)
-  4k:
-    plex_search:
-      all:
-        resolution: 4K
-    sort_title: +01_09_<<collection_name>>
-    url_poster: https://theposterdb.com/api/assets/220482/view
-    filters:
-      filepath.regex: (Remux-2160p|2160p|4K)
+  #IMAX-Enhanced:
+  #  plex_all: true
+  #  sort_title: +01_09_<<collection_name>>
+  #  url_poster: https://theposterdb.com/api/assets/224736/view?performed_by=flk203
+  #  filters:
+  #    filepath.regex: (IMAX Enhanced)
+  #4k:
+  #  plex_search:
+  #    all:
+  #      resolution: 4K
+  #  sort_title: +01_09_<<collection_name>>
+  #  url_poster: https://theposterdb.com/api/assets/220482/view
+  #  filters:
+  #    filepath.regex: (Remux-2160p|2160p|4K)
      
