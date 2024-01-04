@@ -5,12 +5,12 @@ external_templates:
 collections:
   "⭐️ TV Reccomendations":
     template: { name: Chart,
-                level: "++" }
+                level: "++" 
+                poster_url: https://i.imgur.com/susZuCj.png }
     summary: "Our top picks"
     trakt_list:
       - https://trakt.tv/users/flk203/lists/tv-recommendations-couchmoney-tv?sort=popularity,asc
     collection_order: release.desc
     visible_library: true
     visible_home: true
-    poster_url: https://i.imgur.com/susZuCj.png
     visible_shared: true
