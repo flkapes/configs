@@ -34,7 +34,9 @@ collections:
 
   "👀 What Everyone Is Watching":
     template: { name: Chart,
-                level: "+++++" }
+                level: "+++++",
+                poster_url: https://i.imgur.com/6jZNd6W.png }
+
     summary: "What other subscribers are checking out"
     libraries: "TV Shows"
     sync_mode: sync
@@ -49,7 +51,8 @@ collections:
 
   "📈 Trending Now":
     template: { name: Chart,
-                level: "+++++" }
+                level: "+++++",
+                poster_url: https://i.imgur.com/vyFG5o7.png }
     summary: "The hottest shows right now"
     trakt_chart:
       chart: trending
