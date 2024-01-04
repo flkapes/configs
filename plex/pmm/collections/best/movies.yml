@@ -96,6 +96,15 @@ collections:
     schedule:
      - weekly(sunday)
      - hourly(02)
+
+  Scooby-Doo:
+    plex_search:
+      title: Scooby-Doo
+    sort_title: +01_09_<<collection_name>>
+    summary: "Collection of Scooby-Doo movies."
+    url_poster: https://i.imgur.com/zdzgbQd.png
+    collection_order: release
+    collection_mode: hide
     
   #Newly Released (Box Office):
   #  sync_mode: sync
