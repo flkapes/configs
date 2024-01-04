@@ -23,7 +23,6 @@ collections:
     sync_mode: sync
     sort_title: +01_09_MCU1
     collection_mode: hide
-    radarr_add: true
     summary: All movies from the Marvel Cinematic Universe Phase 1.
 
   Marvel Cinematic Universe Phase 2:
@@ -34,7 +33,6 @@ collections:
     sync_mode: sync
     sort_title: +01_09_MCU2
     collection_mode: hide
-    radarr_add: true
     summary: All movies from the Marvel Cinematic Universe Phase 2.    
 
   Marvel Cinematic Universe Phase 3:
@@ -44,7 +42,6 @@ collections:
     collection_order: release
     sync_mode: sync
     sort_title: +01_09_MCU3
-    radarr_add: true
     collection_mode: hide
     summary: All movies from the Marvel Cinematic Universe Phase 3.
     
@@ -54,7 +51,6 @@ collections:
     url_poster: https://theposterdb.com/api/assets/206259
     collection_order: release
     sync_mode: sync
-    radarr_add: true
     sort_title: +01_09_MCU1
     collection_mode: hide
     summary: All movies from the Marvel Cinematic Universe Phase 4.    
@@ -68,7 +64,7 @@ collections:
     sort_title: +01_06_IMDB top 250
     summary: Top movies of all time
     collection_order: custom
-    radarr_add: true
+    radarr_add: false
     collection_mode: hide
     schedule:
      - weekly(sunday)
