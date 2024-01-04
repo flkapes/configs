@@ -34,10 +34,9 @@ collections:
 
   "👀 What Everyone Is Watching":
     template: { name: Chart,
-                level: "+++++",
-                poster_url: https://i.imgur.com/6jZNd6W.png }
+                level: "+++++" }
 
-    summary: "What other subscribers are checking out"
+    summary: "What other plex users are checking out"
     libraries: "TV Shows"
     sync_mode: sync
     collection_order: custom
@@ -45,14 +44,14 @@ collections:
       list_days: 30
       list_size: 15
       list_minimum: 2
+    url_poster: https://i.imgur.com/6jZNd6W.png 
     visible_library: true
     visible_home: true
     visible_shared: true
 
   "📈 Trending Now":
     template: { name: Chart,
-                level: "+++++",
-                poster_url: https://i.imgur.com/vyFG5o7.png }
+                level: "+++++" }
     summary: "The hottest shows right now"
     trakt_chart:
       chart: trending
@@ -60,5 +59,6 @@ collections:
     collection_order: custom
     sync_mode: sync
     visible_library: true
+    url_poster: https://i.imgur.com/vyFG5o7.png
     visible_home: true
     visible_shared: true
