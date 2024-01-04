@@ -5,7 +5,7 @@ external_templates:
 collections:
   "⭐️ Reccomendations":
     template: { name: Chart,
-                level: "++" 
+                level: "++",
                 poster_url: https://i.imgur.com/susZuCj.png }
     summary: "Our top picks"
     trakt_list:
