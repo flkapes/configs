@@ -6,7 +6,8 @@ collections:
   ### New Content
   "➕ Added This Week":
     template: { name: New,
-                level: "++++" }
+                level: "++++",
+                poster_url: https://i.imgur.com/MzDqnFH.png }
     summary: "Episodes added this week on Plex"
     smart_filter:
       type: episode
@@ -15,14 +16,14 @@ collections:
         # Episode added in the last 7 days
         episode_added: 7
     sync_mode: sync
-    poster_url: https://i.imgur.com/MzDqnFH.png
     visible_home: true
     visible_shared: true
     visible_library: true
 
   "📺 Now On Plex":
     template: { name: New,
-                level: "+++" }
+                level: "+++",
+                poster_url: https://i.imgur.com/MzDqnFH.png }
     summary: "Shows now playing on Plex"
     smart_filter:
       type: show
@@ -31,7 +32,6 @@ collections:
         # Shows added in the last 30 days
         added: 30
     sync_mode: sync
-    poster_url: https://i.imgur.com/MzDqnFH.png
     visible_library: true
     visible_home: true
     visible_shared: true
