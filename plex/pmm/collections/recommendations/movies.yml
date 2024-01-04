@@ -5,13 +5,13 @@ external_templates:
 collections:
   "⭐️ Reccomendations":
     template: { name: Chart,
-                level: "++" }
+                level: "++" 
+                poster_url: https://i.imgur.com/susZuCj.png }
     summary: "Our top picks"
     trakt_list:
       - https://trakt.tv/users/flk203/lists/movies-recommendations-couchmoney-tv?sort=popularity,asc
       - https://trakt.tv/users/flk203/lists/movies-trending-couchmoney-tv?sort=rank,asc
     collection_order: release.desc
-    poster_url: https://i.imgur.com/susZuCj.png
     visible_library: true
     visible_home: true
     visible_shared: true
