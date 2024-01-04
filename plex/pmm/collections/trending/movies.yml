@@ -6,7 +6,7 @@ collections:
   # Box Office
   "🍿 At The Box Office":
     template: { name: New,
-                level: "+++"
+                level: "+++",
                 poster_url: https://i.imgur.com/LRH1tFr.png}
     summary: "Now playing on a screen near you"
     trakt_list:
@@ -19,7 +19,7 @@ collections:
   # Trending online
   "📈 Trending Now":
     template: { name: Chart,
-                level: "+++"
+                level: "+++",
                 poster_url: https://i.imgur.com/6jZNd6W.png }
     summary: "The hottest movies right now"
     trakt_chart:
@@ -34,7 +34,7 @@ collections:
   # Trending on Plex
   "👀 What Everyone Is Watching":
     template: { name: Chart,
-                level: "++"
+                level: "++",
                 poster_url: https://i.imgur.com/vyFG5o7.png}
     summary: "What other subscribers are checking out"
     libraries: "Movies"  # Only consider movies in the Movies library (even when building this collection for 4K Movies)
