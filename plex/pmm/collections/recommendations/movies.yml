@@ -13,6 +13,7 @@ collections:
       - https://trakt.tv/users/flk203/lists/movies-trending-couchmoney-tv?sort=popularity,asc
       - https://trakt.tv/users/flk203/lists/movies-based-on-recently-watched-couchmoney-tv?sort=popularity,asc
     collection_order: release.desc
+    radarr_add_missing: true
     visible_library: true
     visible_home: true
     visible_shared: true
