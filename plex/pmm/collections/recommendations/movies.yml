@@ -10,7 +10,8 @@ collections:
     url_poster: https://i.imgur.com/susZuCj.png
     trakt_list:
       - https://trakt.tv/users/flk203/lists/movies-recommendations-couchmoney-tv?sort=popularity,asc
-      - https://trakt.tv/users/flk203/lists/movies-trending-couchmoney-tv?sort=rank,asc
+      - https://trakt.tv/users/flk203/lists/movies-trending-couchmoney-tv?sort=popularity,asc
+      - https://trakt.tv/users/flk203/lists/movies-based-on-recently-watched-couchmoney-tv?sort=popularity,asc
     collection_order: release.desc
     visible_library: true
     visible_home: true
