@@ -9,6 +9,7 @@ collections:
     summary: "Our top picks"
     url_poster: https://i.imgur.com/susZuCj.png
     trakt_list:
+      - https://trakt.tv/users/flk203/lists/tv-based-on-recently-watched-couchmoney-tv
       - https://trakt.tv/users/flk203/lists/tv-recommendations-couchmoney-tv?sort=popularity,asc
     collection_order: release.desc
     visible_library: true
