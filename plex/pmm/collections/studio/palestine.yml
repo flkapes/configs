@@ -2,18 +2,10 @@ templates:
   journeyman_collection:
     optional:
       - my_collection_poster
-    smart_filter:
-      sort_by: title.asc
-      all:
-        studio: Journeyman
     url_poster: <<my_collection_poster>>
   ei_collection:
     optional:
       - my_collection_poster
-    smart_filter:
-      sort_by: title.asc
-      all:
-        studio: Electronic Intifada
     url_poster: <<my_collection_poster>>
 
 dynamic_collections:
