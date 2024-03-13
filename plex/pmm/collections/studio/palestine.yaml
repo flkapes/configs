@@ -23,9 +23,9 @@ dynamic_collections:
     template_variables: 
       my_collection_poster:
         - https://i.imgur.com/FZ1twh2.jpeg
-    Electronic Intifada:         # mapping name does not matter just needs to be unique
+  Electronic Intifada:         # mapping name does not matter just needs to be unique
     type: studio
-    template: journeyman_collection
+    template: ei_collection
     template_variables: 
       my_collection_poster:
         - https://i.imgur.com/49iDToy.png
