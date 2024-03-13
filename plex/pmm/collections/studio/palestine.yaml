@@ -1,0 +1,31 @@
+templates:
+  journeyman_collection:
+    optional:
+      - my_collection_poster
+    smart_filter:
+      sort_by: title.asc
+      all:
+        studio: Journeyman
+    url_poster: <<my_collection_poster>>
+  ei_collection:
+    optional:
+      - my_collection_poster
+    smart_filter:
+      sort_by: title.asc
+      all:
+        studio: Electronic Intifada
+    url_poster: <<my_collection_poster>>
+
+dynamic_collections:
+  Journeyman Pictures:         # mapping name does not matter just needs to be unique
+    type: studio
+    template: journeyman_collection
+    template_variables: 
+      my_collection_poster:
+        - https://i.imgur.com/FZ1twh2.jpeg
+    Electronic Intifada:         # mapping name does not matter just needs to be unique
+    type: studio
+    template: journeyman_collection
+    template_variables: 
+      my_collection_poster:
+        - https://i.imgur.com/49iDToy.png
