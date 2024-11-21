@@ -17,21 +17,6 @@ collections:
   #  visible_home: true
   #  visible_shared: true
 
-  "⏮️ Previously On...":
-    template: { name: Chart,
-                level: "++++" }
-    summary: "Catch up on last week's episodes"
-    smart_filter:
-      type: episode
-      sort_by: release.desc
-      all:
-        # Episode aired in the last 8 days
-        episode_air_date: 8
-    sync_mode: sync
-    visible_home: true
-    visible_shared: true
-    visible_library: true
-
   "👀 What Everyone Is Watching":
     template: { name: Chart,
                 level: "+++++" }
